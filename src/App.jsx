@@ -1,8 +1,13 @@
-import React from 'react'
+import Header from "./components/Header"
+import Card from "./components/Card"
 
 const App = () => {
+  
   return (
-    <div>App</div>
+    <>
+      <Header/>
+      <Card number="#001" name="bulba" type1="tipo1" type2="tipo2" weight="7kg" height="1.8m"/>
+    </>
   )
 }
 
