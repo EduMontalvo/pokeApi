@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_container{
+    display: flex;
+    justify-content: center;    
+}
+
+.header_elements{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header_buttons{
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fire{
+    background-color: rgb(231, 130, 130);
+    color:#fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor:pointer;
+}
+.grown{
+    background-color: rgb(168, 59, 28);
+    color:#fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor:pointer;
+}
+.water{
+    background-color: rgb(103, 178, 228);
+    color:#fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor:pointer;
+}
+.ligth{
+    background-color: rgb(255, 242, 129);
+    color:#fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor:pointer;
+}
+.field{
+    background-color: rgb(152, 216, 152);
+    color:#fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor:pointer;
+}
