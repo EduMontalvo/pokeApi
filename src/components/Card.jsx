@@ -9,8 +9,8 @@ const Card = (props) => {
           </div>
           <div className="card_info">
             <div className="card_data">
-              <p>#001</p>
-              <h1>Bulbasaur</h1>
+              <p>{props.numero}</p>
+              <h1>{props.nombre}</h1>
             </div>
             <div className="card_tipos">
               <p className='poison'>Poison</p>
