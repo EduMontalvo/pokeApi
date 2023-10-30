@@ -14,16 +14,13 @@
 
 
 .card{
-    display: flex;
-    flex-direction: column;
-/*     background-color: #fff;*/ 
-    background-color: #e4e3e4;
-    border-radius: 1rem;
-    max-width: 18rem;
-    padding: auto;
+    padding-block: 1rem;
     text-transform: uppercase;
     position: relative;
     isolation: isolate;
+    overflow: hidden;
+    background-color: darkgray;
+    border-radius: 1rem;
 }
 
 .card_numberback{
@@ -31,33 +28,46 @@
     top: 1rem;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 800;
     z-index: -1;
     color: black;
-    overflow: hidden;
+    
 }
 .card_img{
     padding-inline: 1rem;
     display: flex;
     justify-content: center;
 }
-.card img{
-    width:50%;
-    /* min-width: 6rem; */
-    margin-top: 2rem;
+.card_img img{
+    width:100%;
+    max-width: 9rem;
 }
 .card_info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     padding-inline: 1rem;
+    align-items: center;
+    text-align: center;
 }
 .card_data{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    column-gap: 0.5rem;
+    flex-wrap: wrap;
 }
+.card_data p{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
 .card_tipos{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:0.5rem;
     align-items: center;
 }
 .poison{
